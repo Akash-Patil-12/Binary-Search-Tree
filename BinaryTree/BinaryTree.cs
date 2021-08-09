@@ -11,6 +11,10 @@ namespace BinaryTree
         {
             _root = null;
         }
+        /// <summary>
+        /// Insert in tree
+        /// </summary>
+        /// <param name="data"></param>
         public void Insert(int data)
         {
             if (_root == null)
@@ -40,6 +44,10 @@ namespace BinaryTree
                     InsertRec(root.Right, newNode);
             }
         }
+        /// <summary>
+        /// Display tree
+        /// </summary>
+        /// <param name="root"></param>
         private void DisplayTree(Node<int> root)
         {
             if (root == null) return;
