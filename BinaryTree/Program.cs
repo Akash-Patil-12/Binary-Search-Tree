@@ -22,6 +22,7 @@ namespace BinaryTree
             tree.Insert(63);
             tree.Insert(67);
             tree.DisplayTree();
+            tree.Show();
 
         }
     }
